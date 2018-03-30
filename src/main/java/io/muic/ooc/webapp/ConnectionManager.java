@@ -20,7 +20,7 @@ public class ConnectionManager {
     private Statement statement;
     public ResultSet resultSet;
     private String databaseURL = "jdbc:mysql://localhost:3306/LoginDB";
-    private String databaseUsername = "tletle";
+    private String databaseUsername = "tlepayut";
     private String databasePassword = "1234";
     public ConnectionManager() {
         connection = connectToDB();
