@@ -19,7 +19,7 @@ public class ConnectionManager {
     private Connection connection;
     private Statement statement;
     public ResultSet resultSet;
-    private String databaseURL = "jdbc:mysql://localhost:3306/LoginDB";
+    private String databaseURL = "jdbc:mysql://localhost:3306/LoginCloudDB";
     private String databaseUsername = "tlepayut";
     private String databasePassword = "1234";
     public ConnectionManager() {
